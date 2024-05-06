@@ -1,0 +1,50 @@
+[
+    {
+        "pergunta": "Os sofistas defendiam a relatividade da verdade.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Platão acreditava que o conhecimento verdadeiro só podia ser alcançado através da razão.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Aristóteles defendia a ideia de que o Estado deveria ser governado por um filósofo-rei.",
+        "resposta": false
+    },
+    {
+        "pergunta": "O ceticismo pregava a busca pelo prazer como forma de alcançar a felicidade.",
+        "resposta": false
+    },
+    {
+        "pergunta": "Sócrates acreditava que o objetivo da filosofia era o convencimento através da retórica.",
+        "resposta": false
+    },
+    {
+        "pergunta": "Platão defendia a teoria das ideias, segundo a qual o mundo real é apenas uma sombra do mundo das ideias.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Os cínicos defendiam a vida simples e frugal, rejeitando as convenções sociais.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Os estoicos pregavam a importância da razão e do autocontrole para alcançar a felicidade.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Tales de Mileto acreditava que a água era o princípio fundamental do universo.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Anaximandro de Mileto propôs a ideia do apeiron, um princípio indefinido e ilimitado.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Anaxímenes de Mileto defendia que os números era o princípio fundamental do universo.",
+        "resposta": false
+    },
+    {
+        "pergunta": "Heráclito de Éfeso afirmava que tudo está em constante mudança e nada permanece o mesmo.",
+        "resposta": true
+    }
+  ]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Filosofia Antiga ENEM</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+
+  <div id="telaApresentacao" class="flex flex-col items-center justify-center h-screen">
+    <h1 class="text-4xl font-bold text-gray-800">Quiz Filosofia Antiga</h1>
+    <p class="text-gray-600 mt-4">Teste seus conhecimentos para o ENEM!</p>
+    <button id="botaoIniciar" class="bg-blue-500 text-white font-bold py-2 px-4 rounded mt-8">Começar Quiz</button>
+  </div>
+
+  <div id="telaPerguntas" class="hidden">
+    <div class="flex flex-col items-center justify-center h-screen">
+      <div id="progresso" class="w-full bg-gray-200 h-2 rounded-md mt-4">
+        <div id="barraProgresso" class="bg-blue-500 h-full rounded-md"></div>
+      </div>
+      <h2 id="perguntaElement" class="text-3xl font-bold text-gray-800 mt-8"></h2>
+      <div class="flex flex-row justify-center mt-8">
+        <button id="botaoVerdadeiro" class="bg-green-500 text-white font-bold py-2 px-4 rounded mr-4">Verdadeiro</button>
+        <button id="botaoFalso" class="bg-red-500 text-white font-bold py-2 px-4 rounded">Falso</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="telaResultado" class="hidden">
+    <div class="flex flex-col items-center justify-center h-screen">
+      <h2 class="text-3xl font-bold text-gray-800 mt-8">Resultado</h2>
+      <p id="feedbackElement" class="text-gray-600 mt-4"></p>
+      <button id="botaoReiniciar" class="bg-blue-500 text-white font-bold py-2 px-4 rounded mt-8">Reiniciar Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

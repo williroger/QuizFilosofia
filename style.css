@@ -1,0 +1,57 @@
+/* Cores */
+.bg-gray-100 {
+    background-color: #f4f5f7;
+  }
+  
+  .text-gray-800 {
+    color: #1a202c;
+  }
+  
+  .text-gray-600 {
+    color: #71717a;
+  }
+  
+  .bg-blue-500 {
+    background-color: #1fb6ff;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .bg-green-500 {
+    background-color: #13c27c;
+  }
+  
+  .bg-red-500 {
+    background-color: #ef4444;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Tela de Apresentação */
+  #tela-apresentacao {
+    min-height: 100vh;
+  }
+  
+  /* Tela de Perguntas */
+  #tela-perguntas {
+    min-height: 100vh;
+  }
+  
+  #progresso {
+    overflow: hidden;
+  }
+  
+  #barra-progresso {
+    transition: width 1s ease-in-out;
+  }
+  
+  /* Tela de Resultado */
+  #tela-resultado {
+    min-height: 100vh;
+  }
+  
